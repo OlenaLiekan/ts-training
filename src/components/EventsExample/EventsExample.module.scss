@@ -1,0 +1,57 @@
+
+.line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    gap: 15px;
+    margin: 0 0 50px 0;
+}
+
+.inputExample,
+.btnExample {
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.inputExample {
+    border: 2px solid #a2abff;    
+}
+
+.btnExample {
+    background-color: #5e0089;        
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 2px #7600ad30;
+    &:hover {
+        background-color: #7600ad;
+    }
+}
+
+.dragEl,
+.dropEl,
+.el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 auto 30px auto;
+}
+
+.dragEl,
+.dropEl {
+    background-color: #a2abff;
+}
+
+.dragEl {
+    cursor: grab;    
+}
+
+.el {
+    background-color: #7600ad;
+}
